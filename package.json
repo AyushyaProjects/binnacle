@@ -1,0 +1,30 @@
+{
+  "name": "binnacle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=staging nodemon app",
+    "start-dev": "set NODE_ENV=development && nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyushyaProjects/binnacle.git"
+  },
+  "author": "ayushya nirwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyushyaProjects/binnacle/issues"
+  },
+  "homepage": "https://github.com/AyushyaProjects/binnacle#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "mongoose": "^7.0.0",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
