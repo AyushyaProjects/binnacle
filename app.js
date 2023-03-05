@@ -1,8 +1,9 @@
 const express = require('express');
 const app = express();
 const mongoDbConnection = require('./db/connection');
-const mongoSanatize = require('express-mongo-sanitize')
-const logger = require('./middleware/loggingHandler')
+const mongoSanatize = require('express-mongo-sanitize');
+const logger = require('./middleware/loggingHandler');
+const dotenv = require('dotenv').config();
 
 // connect to DataBase
 // mongoDbConnection();
